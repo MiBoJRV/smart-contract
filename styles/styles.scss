@@ -116,28 +116,39 @@ button.save {
       color: hsl(312deg 41% 55%);
     }
   }
+
   .image {
     margin-top: 50px;
+
     img {
       width: 100%;
     }
   }
 
-  //.block_1 {
-  //  margin-top: 55px;
-  //  margin-left: 123px;
-  //  p {
-  //    span {
-  //      font-size: 8px;
-  //      font-style: normal;
-  //      font-weight: 400;
-  //      line-height: normal;
-  //      letter-spacing: 0.4px;
-  //      text-transform: uppercase;
-  //      cursor: pointer;
-  //    }
-  //  }
-  //}
+  .image-box {
+    border: 2px solid hsl(359, 74%, 40%);
+    border-radius: 10px;
+    width: 185px;
+    margin: 0 0 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px 20px;
+
+    p {
+      font-size: 10px !important;
+      font-weight: 700;
+
+      span {
+        font-size: 10px;
+        font-weight: 700;
+      }
+      span[contenteditable=true] {
+        outline-offset: 0px;
+      }
+    }
+  }
+
 
   .page_1 {
     //page-break-before: always;

@@ -100,6 +100,27 @@ button.save {
 .content .image img {
   width: 100%;
 }
+.content .image-box {
+  border: 2px solid hsl(359, 74%, 40%);
+  border-radius: 10px;
+  width: 185px;
+  margin: 0 0 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 12px 20px;
+}
+.content .image-box p {
+  font-size: 10px !important;
+  font-weight: 700;
+}
+.content .image-box p span {
+  font-size: 10px;
+  font-weight: 700;
+}
+.content .image-box p span[contenteditable=true] {
+  outline-offset: 0px;
+}
 .content .page_1 {
   page-break-inside: avoid;
 }
